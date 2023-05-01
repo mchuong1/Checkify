@@ -1,10 +1,12 @@
-import { useState } from 'react';
 import styles from './App.module.scss';
+import { TaskCard } from './components/task-card/task-card';
 
 function App() {
-    const [count, setCount] = useState(0);
-
-    return <div className={styles.App}></div>;
+    return (
+        <div className={styles.App}>
+            <TaskCard title={"The very first task"}/>
+        </div>
+    );
 }
 
 export default App;
