@@ -1,0 +1,29 @@
+.root {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background-color: #4d4d4d;
+  left: 0px;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  bottom: 0px;
+  margin-left: 0px;
+}
+.navitem {
+  width: 100px;
+  background-color: rgba(128, 128, 128, 0.97);
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-bottom-left-radius: 1px;
+  border-radius: 10px;
+}
+.navlistcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 10px;
+}
