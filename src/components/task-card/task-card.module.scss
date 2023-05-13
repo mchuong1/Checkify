@@ -1,5 +1,6 @@
 .root {
   position: relative;
+  box-shadow: 2.83px 2.83px 6px black;
 }
 .lottie {
   z-index: 90;
@@ -8,4 +9,9 @@
   top: 0;
   left: 25%;
   right: 25%;
+}
+.card:hover {
+  background-color: #808080;
+  cursor: pointer;
+  color: white;
 }
